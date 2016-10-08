@@ -1,5 +1,6 @@
 val a = 10
 
+//if return a value
 val result = if (a<10) "less than 10"
               else if (a==10) "equal to 10"
               else "greater than 10"

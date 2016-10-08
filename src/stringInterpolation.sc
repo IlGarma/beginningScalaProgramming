@@ -12,4 +12,6 @@ val text3 =
 
 val text4 = s"$bandName organize a concert.\nPrice $$${ticketPrice+10}"
 
+//format like Java. SInce $ and % are reserved word
+//to print the dollars you have to use $$ or %%
 val text5 = f"$bandName organize a concert.\nPrice $$${ticketPrice+1}%1.2f"

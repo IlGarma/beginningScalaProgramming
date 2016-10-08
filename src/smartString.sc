@@ -18,6 +18,7 @@ val text3=
     @    text46
   """.stripMargin('@')
 
-
+//with smart string in case of regex you can avoid to escape special
+//character like \
 val regex ="""\s""".r
 val regex2 ="\\s".r
