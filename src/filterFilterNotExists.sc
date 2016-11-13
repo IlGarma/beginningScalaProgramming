@@ -18,3 +18,9 @@ range.exists(_>100)
 val m=Map(1->2, 2->3, 3->4)
 //filterKeys works on the keys of the map
 m.filterKeys(_%2==0)
+
+//You can apply filter also on Option
+//Since Option match the predicate, you will receive the same Some
+Some(4).filter(_%2==0)
+//Since Option doesn't match the predicate you will receive None
+Some(4).filterNot(_%2==0)
