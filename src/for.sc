@@ -10,7 +10,7 @@ for (a<-x) {
 }
 println(result)
 
-//yield works an an accumulater
+//yield works an an accumulator
 //when the for end, the buffer is returned
 //the type of the buffer is the same of the
 //element you are iterating on
